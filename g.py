@@ -17,7 +17,7 @@ player_rect = player_image.get_rect()
 player_rect.center = (300, 400)
 
 # Set up obstacle sprite
-width1 = random.randint(20, 60)
+#width1 = random.randint(20, 200)
 obstacle_image = pygame.Surface((60, 20))
 obstacle_image.fill((255, 0, 0))
 
